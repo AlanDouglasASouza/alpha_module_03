@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.down {    
+    margin-top: 30vh;
+    border-top: 2px solid rgb(61, 61, 61);
+}
