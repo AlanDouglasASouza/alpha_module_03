@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    width: 100vmax;
+}
+
+div~p {
+    color:rgb(44, 44, 44);
+}
+
+p::first-line {
+    color: rebeccapurple
+}
+
+.top {
+    border-bottom: 2px solid rgb(48, 48, 48);
+    height: 60px;
+}
+
+h1#title {
+    color: rgb(54, 33, 33);
+    font-size: 30pt;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid rgb(48, 48, 48);
+    padding: 15px;
+    margin-top: 80px;
+}
+
+p[data="article"] {
+    margin-top: 25px;
+}
+
+.exemple {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#text-two:hover {
+    background-color: brown;
+}
+
+.down {
+    border-top: 2px solid rgb(48, 48, 48);
+    margin-top: 22vh;
+    padding-top: 10px;
+}
