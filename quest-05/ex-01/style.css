@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../../assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* O uso de font-family a baixo */
+body {
+    background-image: url(../../assets/backgroud-q5-ex1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 100vw;    
+    height: 100vh;
+    color: #ffffff;
+    -webkit-box-shadow: inset 400px 5px 167px 11px rgba(48, 48, 48, 0.9);
+    -moz-box-shadow: inset 400px 5px 167px 11px rgba(48, 48, 48, 0.9);
+    box-shadow: inset 400px 5px 167px 11px rgba(48, 48, 48, 0.9);
+    font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+/* O uso do text-decoration a baixo */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-top {
+    height: 60px;
+    background-color: black;
+}
+
+img#logo-alpha {
+    width: 110px;
+    height: 55px;
+    margin: 5px 40px;
+}
+
+.content {
+    width: 45vw;    
+    margin: 23vh 40px;
+}
+
+div#video {
+    position: absolute;
+    left: 60vw;
+    bottom: 30vh;
+}
+
+/* O uso de font-weight e font-size a baixo */
+h1#title-article {
+    font-weight: 900;
+    font-size: 27pt;
+    color: #ffffff;    
+}
+
+p#article {
+    font-size: 14pt;
+    line-height: 22px;
+    padding-top: 50px;
+    width: 450px;
+}
+
+.nav-down {
+    height: 40px;
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 15pt;
+}
+
+nav {
+    margin-top: 10px;
+}
