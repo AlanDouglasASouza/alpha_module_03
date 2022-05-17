@@ -1,0 +1,109 @@
+/* Usando uma fonte .woff */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../assets/fonts/opensans-variablefont_wdthwght-webfont.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Usando uma fonte do google font */
+body {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(22, 21, 21);
+    color: #ffffff;
+    overflow: hidden;
+}
+
+header {
+    height: 60px;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+p {
+    font-weight: bold;
+}
+
+.container {    
+    margin: 0 auto;
+}
+
+.box {    
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20vh;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+}
+
+#list-container {
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 30px;
+    font-size: 15pt;
+    text-align: left;
+}
+
+/* Fazendo uma lista não numerada com diferentes estilos */
+#li1 {
+    list-style: disc;
+}
+
+#li2 {
+    list-style: square;
+}
+
+#li3 {
+    list-style: circle;
+}
+
+#li4 {
+    list-style: none;
+}
+
+#box-links {
+    margin-top: 55vh;
+}
+
+
+/* Estilizando os links das mais diversas formas */
+/* Onde foi usada a fonte .woff */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    color: rgb(104, 104, 104);
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a#alpha-edtech:active {
+    color: rgb(231, 80, 80);
+}
+
+a#alpha-lumen:focus {
+    color: rgb(226, 248, 31);
+}
+
+a#linkedin:visited {
+    color: rgb(134, 110, 165);
+}
